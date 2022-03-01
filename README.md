@@ -191,12 +191,12 @@ The frequency was showing wide variation from **90MHz to 10GHz**. The plots are 
 
 #### Frequency vs Control voltage
 <p align="center">
-  <img src="fv.png"></br>
+  <img src="plot.png"></br>
   Fig. 9: Frequency vs Control Voltage plot
 </p>
 
 <p align="center">
-  <img src="table.png"></br>
+  <img src="fv2.png"></br>
   Fig. 10: Frequency vs Control Voltage table
 </p>
 
