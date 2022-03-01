@@ -213,6 +213,9 @@ The frequency was showing wide variation from **90MHz to 10GHz**. The plots are 
 - Noise analyisis is not done and phase noise is not calculated.
 - Supply voltage was fixed at 1.5 V. Need to reduce it and make it down to 1V.
 - Area estimation and layout remains
+
+# Author
+Dhairya Arora, 3rd-year student, BITS Pilani, India
 # Acknowledgements
 • <a href='https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/'>Cloud Based Analog IC Design Hackathon</a></br>
 • <a href='https://www.synopsys.com/'>Synopsys India</a></br>
