@@ -2,7 +2,19 @@
 
 This repo is being formed as a part of analog design hackathon by IITH. Design and results of the VCRO are presented.
 
+
 # Table of Contents
+ * [Introduction](#Introduction)
+ * [Tools Used](#Tools-Used)
+ * [Design of the Circuit](#Design-of-the-Circuit)
+ * [Results](#Results)
+ * [Conclusions](#conclusions)
+ * [Challenges Faced](#Challenges-Faced)
+ * [Future Work](#Future)
+ * [Author](#Author)
+ * [Acknowledgements](#Acknowledgements)
+ * [References](#References)
+
 # Introduction
 A ring oscillator is a device composed of an odd number of NOT gates in a ring, whose output oscillates between two voltage levels, representing true and false. The NOT gates, or inverters, are attached in a chain and the output of the last inverter is fed back into the first. Ring oscillators can also be created using analog design, instead of inverters. The analog design in the ring oscillators is used to provide the Voltage control, wide swing. A ring oscillator(Figure 1) consists of a fixed number of gain stages in a
 loop. The gain stage could be an inverter, differential pair,
@@ -21,6 +33,16 @@ pahse H(jw) = 180
   Fig. 1: Basic ring oscillators
 </p>
 
+# Tools Used
+
+<b>• Synopsys Custom Compiler:</b></br>
+&emsp;The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+
+<b>• Synopsys Primewave:</b></br>
+&emsp;PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+
+<b>• Synopsys 28nm PDK:</b></br>
+&emsp;The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Design of the Circuit
 The circuit was designed with reference to the paper <a href = 'https://www.mdpi.com/2079-9292/8/10/1156'>Design of a Wide-Band Voltage-Controlled Ring Oscillator Implemented in 180 nm CMOS Technology</a>. The circuit is based on a differential pair based individual stage in a ring oscillator. The PMOS M1 and M2 operate in the triode region so that the on resistance could be changed on varying the control voltage. The 2 nmos in the differential pair are the gain components, and the tail MOSFET is used for biasing the circuit. It is worth mentioning that designing
