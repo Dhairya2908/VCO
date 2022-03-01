@@ -223,5 +223,5 @@ Dhairya Arora, 3rd-year student, BITS Pilani, India
 
 # References
 1. Design of Analog CMOS integrated circuits, B. Razavi.
-2. Design of Analog Pjhase locked loops, B. Razavi.
+2. Design of Analog Phase locked loops, B. Razavi.
 3. Design of a Wide-Band Voltage-Controlled Ring Oscillator Implemented in 180 nm CMOS Technology by Esteban Tlelo-Cuautle
