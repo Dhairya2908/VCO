@@ -1,6 +1,6 @@
 # Voltage Controlled Ring Oscillator with a wide tuning range(90MHz - 10GHz) and high frequency(10.5GHz)
 
-This repo is being formed as a part of analog design hackathon by IITH. Design and results of the VCRO are presented.
+This repo is formed as a part of analog design hackathon by IITH. The Design and results of the VCRO are presented.
 
 
 # Table of Contents
@@ -12,16 +12,15 @@ This repo is being formed as a part of analog design hackathon by IITH. Design a
  * [Challenges Faced](#Challenges-Faced)
  * [Future Work](#Future)
  * [Author](#Author)
- * [Acknowledgements](#Acknowledgements)
+ * [Acknowledgments](#Acknowledgments)
  * [References](#References)
 
 # Introduction
-A ring oscillator is a device composed of an odd number of NOT gates in a ring, whose output oscillates between two voltage levels, representing true and false. The NOT gates, or inverters, are attached in a chain and the output of the last inverter is fed back into the first. Ring oscillators can also be created using analog design, instead of inverters. The analog design in the ring oscillators is used to provide the Voltage control, wide swing. A ring oscillator(Figure 1) consists of a fixed number of gain stages in a
-loop. The gain stage could be an inverter, differential pair,
+A ring oscillator is composed of an odd number of NOT gates in a ring, whose output oscillates between two voltage levels, representing true and false. The NOT gates, or inverters, are attached in a chain and the output of the last inverter is fed back into the first. Apart from NOT gates, Ring oscillators can also be created using differential pair,
 current starved inverter. The main aim of all these individual
 stages is to produce an output voltage with a particular
 phase and gain such that Barkhausen criteria(shown below)
-of oscillations is satisfied.
+of oscillations is satisfied. 
 
 ```
 pahse H(jw) = 180
@@ -82,7 +81,7 @@ The oscillator single gain stage circuit diagram implemented is shown below:
 > 2. Phase of each individual stage should be 180 degrees.
 
 Considering the above conditions, specifications were decided for a single stage in the following manner:
-- Firstly the differential stage was halved, since both the sides are matching. So, we need to design Widths and Lengths for 3 Mosfets only.
+- Firstly the differential stage was halved, since both the sides are matched. So, we need to design Widths and Lengths for 3 Mosfets only.
 - The Gain of single stage will be then given by gm*(ro1 || ro2). So the gm, ro1 and ro2 should be high enough so that gain is greater than 2.
 - Operating point and dc analysis was performed for all individual MOSFETs, and gm, gds and Id were observed.
 - Setting the widths and lengths according to our requirement of increasing or decreasing the gm and gds.
@@ -216,7 +215,7 @@ The frequency was showing wide variation from **90MHz to 10GHz**. The plots are 
 
 # Author
 Dhairya Arora, 3rd-year student, BITS Pilani, India
-# Acknowledgements
+# Acknowledgments
 • <a href='https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/'>Cloud Based Analog IC Design Hackathon</a></br>
 • <a href='https://www.synopsys.com/'>Synopsys India</a></br>
 • <a href='https://www.vlsisystemdesign.com/'>VLSI System Design (VSD) Corp. Pvt. Ltd India</a></br>
