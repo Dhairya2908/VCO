@@ -75,7 +75,7 @@ The oscillator single gain stage circuit diagram implemented is shown below:
 
 
 ## Calculation of W/L values
-> "Analog design is all about calculting dimensions"
+> "Analog design is all about calculating dimensions"
 
 > For a ring oscillator to work properly, following conditions must be satisfied
 > 1. Gain of each individual stage must be greater than specific value(2 for 3-stages, 1.414 for 4 stages).
@@ -202,15 +202,15 @@ The frequency was showing wide variation from **90MHz to 10GHz**. The plots are 
 
 
 # Conclusions
-- The circuit built was up to mark and expextaitions.
+- The circuit built was up to mark and expectaitions.
 - Frequency range came out to be much higher and wider than expected.
 - Highest frequency was much higher when compared to 180nm impementation of same circuit.
-- Learnt many many new things through this design and implemntation.
+- Learned many many new things through this design and implementation.
 # Challenges Faced
 - Initially circuit was not oscillating, so to make the circuit oscillate, some initial condition(setup - Convergence Aids - select the output you want) need to be set for making it operating in a loop, otherwise it will simply show a contant value.
 # Future Work
 - Frequency and FFT plots of the circuit need to be plotted.
-- Noise analyisis is not done and phase noise is not calculated.
+- Noise analysis is not done and phase noise is not calculated.
 - Supply voltage was fixed at 1.5 V. Need to reduce it and make it down to 1V.
 - Area estimation and layout remains
 
